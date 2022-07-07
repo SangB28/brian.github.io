@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>JedaPlus Furnished Apartments</title>
+</head>
+<link rel="stylesheet" href="css/bootstrap.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="js/main.js">
+<body>
+    
+    <nav class="nav">
+        <div class="container">
+            <div class="logo">
+                <a href="#">JFA</a>
+            </div>
+            <div id="mainListDiv" class="main_list">
+                <ul class="navlinks">
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact Us</a></li>
+                </ul>
+            </div>
+            <span class="navTrigger">
+                <i></i>
+                <i></i>
+                <i></i>
+            </span>
+        </div>
+    </nav>
+
+    <section class="home">
+    </section>
+    <div style="height: 1000px">
+
+				<p class="myP">
+				
+                    A three-bedroom apartment in Langata, Nairobi is one of the finest rentals. The living room has a dining table and an open equipped kitchen. The master bedroom is ensuite, other two bedrooms are furnished with comfy beds making it suitable for large families. The flat can be easily accessed by a lift & parking. Dine-in at Freedom Heights mall that includes Laundry, Artcaffe, supermarket & a nearby Petrol Station/Wilson Airport. Welcome to our humble place.
+			</p>
+    </div>
+
+<!-- Jquery needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+<!-- Function used to shrink nav bar removing paddings and adding black background -->
+    <script>
+        $(window).scroll(function() {
+            if ($(document).scrollTop() > 50) {
+                $('.nav').addClass('affix');
+                console.log("OK");
+            } else {
+                $('.nav').removeClass('affix');
+            }
+        });
+    </script>
+
+
+
+    <!-- Footer -->
+    <footer
+            class="text-center text-lg-start text-white"
+            style="background-color: #000000"
+            >
+      <!-- Grid container -->
+      <div class="container p-4 pb-0">
+        <!-- Section: Links -->
+        <section class="">
+          <!--Grid row-->
+          <div class="row">
+            <!-- Grid column -->
+            <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">
+                JedaPlus Furnished Apartments
+              </h6>
+              <p>
+                The Apartments are located along Lang’ata Road, Nairobi Kenya at Freedom Heights Residence which is a 200m walk to Freedom Heights Mall with access to Supermarkets, Restaurants, Banking & ATM services, Shops, Pharmacies, and other social amenities with Ample parking available. Access to swimming pool, gym, steam, and sauna at Weston Hotel.
+              </p>
+            </div>
+
+  
+            <!-- Grid column -->
+            <hr class="w-100 clearfix d-md-none" />
+  
+            <!-- Grid column -->
+            <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+              <h6 class="text-uppercase mb-4 font-weight-bold">Contact Us</h6>
+              <p><i class="fas fa-home mr-3"></i> Langata Rd, Nairobi, Kenya</p>
+              <p><i class="fas fa-phone mr-3"></i> +254728449659</p>
+
+            </div>
+            <!-- Grid column -->
+          </div>
+          <!--Grid row-->
+        </section>
+        <!-- Section: Links -->
+  
+        <hr class="my-3">
+  
+        <!-- Section: Copyright -->
+        <section class="p-3 pt-0">
+          <div class="row d-flex align-items-center">
+            <!-- Grid column -->
+            <div class="col-md-7 col-lg-8 text-center text-md-start">
+              <!-- Copyright -->
+              <div class="p-3">
+                © 2020 Copyright:
+                <a class="text-white" href="JedaPlus"
+                   >JedaPlus Furnished Apartments</a
+                  >
+              </div>
+              <!-- Copyright -->
+            </div>
+            <!-- Grid column -->
+  
+
+          </div>
+        </section>
+        <!-- Section: Copyright -->
+      </div>
+      <!-- Grid container -->
+    </footer>
+    <!-- Footer -->
+
+
+</body>
+</html>
